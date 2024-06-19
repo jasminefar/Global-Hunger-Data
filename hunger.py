@@ -47,7 +47,7 @@ yearly_changes = {year: {} for year in years}
 for year_index in range(len(years)):
     for country in countries:
         yearly_changes[years[year_index]][country] = hunger_data[country][year_index]
-
+# Finshing touch
 print("\nYearly Changes in Hunger Rates:")
 for year, data in yearly_changes.items():
     print(f"{year}: {data}")
